@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Name of your master is *</pattern>
+	    <template>I will remember my master is <set name ="name"><star/></set></template>
+	</category>
+	<category>
+	    <pattern>who is your master</pattern>
+	    <template>my master is <get name="name"/></template>
+	</category>
+</aiml>

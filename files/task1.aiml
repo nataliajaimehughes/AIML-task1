@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	   <pattern>Do you prefer coding or working with networks?</pattern>
+	   <template>
+	       <button>
+	           <text>Coding</text>
+	           <postback>codingcareers</postback>
+           </button>
+	   </template>
+	</category>
+	
+	<category>
+	    <pattern>codingcareers</pattern>
+	    <template>Full stack or one end?</template>
+	</category>
+</aiml>

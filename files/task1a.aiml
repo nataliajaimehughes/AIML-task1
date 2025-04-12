@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>hi</pattern>
+	    <template>I recommend careers based on your preferences. Do you prefer coding or networks?</template>
+	</category>
+	<category>
+	    <pattern>coding</pattern>
+	    <template>Do you prefer coding on the front end, back end, or both?</template>
+	</category>
+	<category>
+	    <pattern>front end</pattern>
+	    <template>I recommend the career, Front End Developer</template>
+	</category>
+	<category>
+	    <pattern>back end</pattern>
+	    <template>I recommend the career, Back End Developer</template>
+	</category>
+	<category>
+	    <pattern>both</pattern>
+	    <template>I recommend the career, Full Stack Developer</template>
+	</category>
+	
+	<category>
+	    <pattern>networks</pattern>
+	    <template>Do you prefer designing networks or securing networks</template>
+	</category>
+	<category>
+	    <pattern>designing networks</pattern>
+	    <template>I recommend the career, Network Engineer</template>
+	</category>
+	<category>
+	    <pattern>securing networks</pattern>
+	    <template>I recommend the career, Cybersecurity Engineer</template>
+	</category>
+</aiml>
